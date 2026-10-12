@@ -33,6 +33,7 @@ public class Aldeanoforaflut implements ModInitializer {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, new ResourceLocation(MODID, "phora_tab"), PHORA_TAB);
         ModItems.register();
         ModBlocks.register();
+        ModBlockEntities.register();
         ModEntities.register();
         ModSounds.register();
         ModNetworking.registerServerMessages();
