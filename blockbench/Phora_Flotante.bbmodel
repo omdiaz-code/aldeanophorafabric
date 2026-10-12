@@ -1,0 +1,1330 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "modded_entity",
+    "box_uv": false
+  },
+  "name": "Phora Flotante",
+  "model_identifier": "phora_flotante",
+  "modded_entity_entity_class": "",
+  "modded_entity_version": "1.17",
+  "modded_entity_flip_y": true,
+  "visible_box": [
+    2,
+    2.5,
+    2
+  ],
+  "variable_placeholders": "",
+  "multi_file_ruleset": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {},
+  "resolution": {
+    "width": 128,
+    "height": 128
+  },
+  "elements": [
+    {
+      "name": "Torso con circuito",
+      "type": "cube",
+      "uuid": "abff82ef-b209-4c63-9421-6f2f0b8a7d64",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -5,
+        6,
+        -3
+      ],
+      "to": [
+        5,
+        14,
+        3
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            72,
+            40,
+            100
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            80,
+            72,
+            104,
+            100
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            40,
+            72,
+            80,
+            100
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            80,
+            72,
+            104,
+            100
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            88,
+            100,
+            128,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            88,
+            100,
+            128,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Núcleo verde",
+      "type": "cube",
+      "uuid": "ae7070e2-4ec4-4bfe-a51a-41f769b9563b",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -1.5,
+        8.5,
+        -3.18
+      ],
+      "to": [
+        1.5,
+        11.5,
+        -3
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            64,
+            100,
+            88,
+            128
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            64,
+            100,
+            88,
+            128
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            64,
+            100,
+            88,
+            128
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            64,
+            100,
+            88,
+            128
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            64,
+            100,
+            88,
+            128
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            64,
+            100,
+            88,
+            128
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Cabeza monitor",
+      "type": "cube",
+      "uuid": "561a5e80-6693-46f9-b3a1-b69d41a4416c",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -6,
+        14,
+        -4
+      ],
+      "to": [
+        6,
+        23,
+        4
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            48,
+            36
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            96,
+            0,
+            128,
+            36
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            0,
+            96,
+            36
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            96,
+            0,
+            128,
+            36
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            40,
+            48,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            40,
+            96,
+            72
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Hombro derecho",
+      "type": "cube",
+      "uuid": "4676c9d7-3826-4b89-8a78-68dfa4de8f31",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -8.4,
+        8,
+        -2
+      ],
+      "to": [
+        -5.4,
+        13,
+        2
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Antebrazo derecho",
+      "type": "cube",
+      "uuid": "3168107f-79c5-4625-8931-e8839bf6bd0b",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -8.2,
+        4,
+        -1.5
+      ],
+      "to": [
+        -5.6,
+        8,
+        1.5
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Pinza derecha",
+      "type": "cube",
+      "uuid": "0d155d71-9de4-4f20-9b06-0468fb1bb5c6",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -8.8,
+        2.5,
+        -2
+      ],
+      "to": [
+        -5.200000000000001,
+        4.5,
+        2
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Dedo interior derecho",
+      "type": "cube",
+      "uuid": "dbf91824-fc99-4774-8fab-b6c3bcc1a3b7",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -8.4,
+        0.5,
+        -2
+      ],
+      "to": [
+        -7.2,
+        2.5,
+        -0.6000000000000001
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Dedo exterior derecho",
+      "type": "cube",
+      "uuid": "e3ec3b72-e242-4f06-894f-757085c62c40",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        -6.8,
+        0.5,
+        -2
+      ],
+      "to": [
+        -5.6,
+        2.5,
+        -0.6000000000000001
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Hombro izquierdo",
+      "type": "cube",
+      "uuid": "e474d6f6-c957-44c0-8290-d0e930ea3634",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        5.4,
+        8,
+        -2
+      ],
+      "to": [
+        8.4,
+        13,
+        2
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            100,
+            16,
+            120
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Antebrazo izquierdo",
+      "type": "cube",
+      "uuid": "9c1731c5-f8b1-4bdc-a3a0-87af738f5c09",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        5.6,
+        4,
+        -1.5
+      ],
+      "to": [
+        8.2,
+        8,
+        1.5
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            100,
+            36,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Pinza izquierda",
+      "type": "cube",
+      "uuid": "339b92b2-f88a-4cb3-b9bc-b4c340880f4a",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        5.2,
+        2.5,
+        -2
+      ],
+      "to": [
+        8.8,
+        4.5,
+        2
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Dedo interior izquierdo",
+      "type": "cube",
+      "uuid": "60717f81-38fa-478e-9b44-acc0b0a3166c",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        5.4,
+        0.5,
+        -2
+      ],
+      "to": [
+        6.6000000000000005,
+        2.5,
+        -0.6000000000000001
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Dedo exterior izquierdo",
+      "type": "cube",
+      "uuid": "051e08f0-5fd9-4416-a88c-1d8fc42c42c1",
+      "box_uv": false,
+      "render_order": "default",
+      "locked": false,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        7,
+        0.5,
+        -2
+      ],
+      "to": [
+        8.2,
+        2.5,
+        -0.6000000000000001
+      ],
+      "autouv": 0,
+      "color": 0,
+      "visibility": true,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            100,
+            64,
+            124
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "uuid": "6c1d4156-f8af-4b08-8e19-cd9bf3df6794",
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0
+    },
+    {
+      "uuid": "bd60577a-f9e7-46ae-89f0-ce9ead8d2729",
+      "name": "body",
+      "origin": [
+        0,
+        8,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0
+    },
+    {
+      "uuid": "cac2a77c-8d64-4c10-8bca-dd721e3dcd22",
+      "name": "head",
+      "origin": [
+        0,
+        14,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0
+    },
+    {
+      "uuid": "06fccbac-85f4-4df3-96bd-7251cbf4791e",
+      "name": "right_arm",
+      "origin": [
+        -5.5,
+        12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0
+    },
+    {
+      "uuid": "c661d1fc-04bb-479d-ab17-28fe3ac1e3d8",
+      "name": "left_arm",
+      "origin": [
+        5.5,
+        12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "6c1d4156-f8af-4b08-8e19-cd9bf3df6794",
+      "isOpen": true,
+      "children": [
+        {
+          "uuid": "bd60577a-f9e7-46ae-89f0-ce9ead8d2729",
+          "isOpen": true,
+          "children": [
+            "abff82ef-b209-4c63-9421-6f2f0b8a7d64",
+            "ae7070e2-4ec4-4bfe-a51a-41f769b9563b",
+            {
+              "uuid": "cac2a77c-8d64-4c10-8bca-dd721e3dcd22",
+              "isOpen": true,
+              "children": [
+                "561a5e80-6693-46f9-b3a1-b69d41a4416c"
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "06fccbac-85f4-4df3-96bd-7251cbf4791e",
+          "isOpen": true,
+          "children": [
+            "4676c9d7-3826-4b89-8a78-68dfa4de8f31",
+            "3168107f-79c5-4625-8931-e8839bf6bd0b",
+            "0d155d71-9de4-4f20-9b06-0468fb1bb5c6",
+            "dbf91824-fc99-4774-8fab-b6c3bcc1a3b7",
+            "e3ec3b72-e242-4f06-894f-757085c62c40"
+          ]
+        },
+        {
+          "uuid": "c661d1fc-04bb-479d-ab17-28fe3ac1e3d8",
+          "isOpen": true,
+          "children": [
+            "e474d6f6-c957-44c0-8290-d0e930ea3634",
+            "9c1731c5-f8b1-4bdc-a3a0-87af738f5c09",
+            "339b92b2-f88a-4cb3-b9bc-b4c340880f4a",
+            "60717f81-38fa-478e-9b44-acc0b0a3166c",
+            "051e08f0-5fd9-4416-a88c-1d8fc42c42c1"
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "phora_off.png",
+      "id": "0",
+      "path": "",
+      "relative_path": "phora_off.png",
+      "width": 128,
+      "height": 128,
+      "uv_width": 128,
+      "uv_height": 128,
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "internal": true,
+      "source": "data:image/png;base64,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",
+      "mode": "bitmap",
+      "saved": true,
+      "visible": true,
+      "folder": "textures",
+      "namespace": "",
+      "uuid": "3975d69c-65af-4b80-a409-71fbe807f017"
+    },
+    {
+      "name": "phora_on.png",
+      "id": "1",
+      "path": "",
+      "relative_path": "phora_on.png",
+      "width": 128,
+      "height": 128,
+      "uv_width": 128,
+      "uv_height": 128,
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "internal": true,
+      "source": "data:image/png;base64,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",
+      "mode": "bitmap",
+      "saved": true,
+      "visible": false,
+      "folder": "textures",
+      "namespace": "",
+      "uuid": "6ad78b74-ef2f-4a0e-9c34-a7204a89f9da"
+    }
+  ],
+  "animations": []
+}

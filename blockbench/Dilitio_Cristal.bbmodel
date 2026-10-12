@@ -1,0 +1,678 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Dilitio - cristal facetado",
+  "model_identifier": "dilitio_crystal",
+  "visible_box": [
+    1,
+    1,
+    1
+  ],
+  "variable_placeholders": "",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "type": "mesh",
+      "uuid": "8ee29817-c593-48dd-ba9c-492ed3809e3e",
+      "name": "Cristal facetado",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "visibility": true,
+      "locked": false,
+      "export": true,
+      "render_order": "default",
+      "shading": "flat",
+      "vertices": {
+        "tip_top": [
+          13.647661861336957,
+          13.43977246766811,
+          8.049000000000001
+        ],
+        "tip_bottom": [
+          2.352338138663044,
+          2.56022753233189,
+          7.951
+        ],
+        "u0": [
+          10.633265653138702,
+          12.296380802489463,
+          7.314
+        ],
+        "m0": [
+          7.029849496212057,
+          9.524522220238197,
+          7.118
+        ],
+        "b0": [
+          3.7036191975105366,
+          5.366734346861298,
+          7.51
+        ],
+        "u1": [
+          11.811305550595492,
+          11.118340905032674,
+          6.334
+        ],
+        "m1": [
+          8.554371716450254,
+          8.0,
+          5.550000000000001
+        ],
+        "b1": [
+          4.812362630411044,
+          4.257990913960789,
+          6.4319999999999995
+        ],
+        "u2": [
+          12.712159589827152,
+          10.217486865801014,
+          7.804
+        ],
+        "m2": [
+          10.148190401244731,
+          6.406181315205522,
+          7.706
+        ],
+        "b2": [
+          5.782513134198986,
+          3.287840410172847,
+          7.804
+        ],
+        "u3": [
+          12.019194944264335,
+          10.910451511363831,
+          9.176
+        ],
+        "m3": [
+          9.455225755681914,
+          7.099145960768339,
+          9.96
+        ],
+        "b3": [
+          5.158844953192452,
+          3.9115085911793814,
+          9.176
+        ],
+        "u4": [
+          10.563969188582423,
+          12.365677267045744,
+          8.588
+        ],
+        "m4": [
+          6.960553031655775,
+          9.59381868479448,
+          8.98
+        ],
+        "b4": [
+          3.7036191975105366,
+          5.366734346861298,
+          8.686
+        ]
+      },
+      "faces": {
+        "top_0": {
+          "vertices": [
+            "tip_top",
+            "u1",
+            "u0"
+          ],
+          "uv": {
+            "tip_top": [
+              8.5,
+              12.5
+            ],
+            "u1": [
+              11.5,
+              12.5
+            ],
+            "u0": [
+              10.0,
+              15.5
+            ]
+          },
+          "texture": 0
+        },
+        "upper_0": {
+          "vertices": [
+            "u0",
+            "u1",
+            "m1",
+            "m0"
+          ],
+          "uv": {
+            "u0": [
+              0.5,
+              8.5
+            ],
+            "u1": [
+              3.5,
+              8.5
+            ],
+            "m1": [
+              3.5,
+              11.5
+            ],
+            "m0": [
+              0.5,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "lower_0": {
+          "vertices": [
+            "m0",
+            "m1",
+            "b1",
+            "b0"
+          ],
+          "uv": {
+            "m0": [
+              0.5,
+              12.5
+            ],
+            "m1": [
+              3.5,
+              12.5
+            ],
+            "b1": [
+              3.5,
+              15.5
+            ],
+            "b0": [
+              0.5,
+              15.5
+            ]
+          },
+          "texture": 0
+        },
+        "bottom_0": {
+          "vertices": [
+            "tip_bottom",
+            "b0",
+            "b1"
+          ],
+          "uv": {
+            "tip_bottom": [
+              0.5,
+              0.5
+            ],
+            "b0": [
+              3.5,
+              0.5
+            ],
+            "b1": [
+              2.0,
+              3.5
+            ]
+          },
+          "texture": 0
+        },
+        "top_1": {
+          "vertices": [
+            "tip_top",
+            "u2",
+            "u1"
+          ],
+          "uv": {
+            "tip_top": [
+              12.5,
+              8.5
+            ],
+            "u2": [
+              15.5,
+              8.5
+            ],
+            "u1": [
+              14.0,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "upper_1": {
+          "vertices": [
+            "u1",
+            "u2",
+            "m2",
+            "m1"
+          ],
+          "uv": {
+            "u1": [
+              12.5,
+              8.5
+            ],
+            "u2": [
+              15.5,
+              8.5
+            ],
+            "m2": [
+              15.5,
+              11.5
+            ],
+            "m1": [
+              12.5,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "lower_1": {
+          "vertices": [
+            "m1",
+            "m2",
+            "b2",
+            "b1"
+          ],
+          "uv": {
+            "m1": [
+              4.5,
+              8.5
+            ],
+            "m2": [
+              7.5,
+              8.5
+            ],
+            "b2": [
+              7.5,
+              11.5
+            ],
+            "b1": [
+              4.5,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "bottom_1": {
+          "vertices": [
+            "tip_bottom",
+            "b1",
+            "b2"
+          ],
+          "uv": {
+            "tip_bottom": [
+              4.5,
+              0.5
+            ],
+            "b1": [
+              7.5,
+              0.5
+            ],
+            "b2": [
+              6.0,
+              3.5
+            ]
+          },
+          "texture": 0
+        },
+        "top_2": {
+          "vertices": [
+            "tip_top",
+            "u3",
+            "u2"
+          ],
+          "uv": {
+            "tip_top": [
+              8.5,
+              8.5
+            ],
+            "u3": [
+              11.5,
+              8.5
+            ],
+            "u2": [
+              10.0,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "upper_2": {
+          "vertices": [
+            "u2",
+            "u3",
+            "m3",
+            "m2"
+          ],
+          "uv": {
+            "u2": [
+              8.5,
+              8.5
+            ],
+            "u3": [
+              11.5,
+              8.5
+            ],
+            "m3": [
+              11.5,
+              11.5
+            ],
+            "m2": [
+              8.5,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "lower_2": {
+          "vertices": [
+            "m2",
+            "m3",
+            "b3",
+            "b2"
+          ],
+          "uv": {
+            "m2": [
+              4.5,
+              4.5
+            ],
+            "m3": [
+              7.5,
+              4.5
+            ],
+            "b3": [
+              7.5,
+              7.5
+            ],
+            "b2": [
+              4.5,
+              7.5
+            ]
+          },
+          "texture": 0
+        },
+        "bottom_2": {
+          "vertices": [
+            "tip_bottom",
+            "b2",
+            "b3"
+          ],
+          "uv": {
+            "tip_bottom": [
+              0.5,
+              4.5
+            ],
+            "b2": [
+              3.5,
+              4.5
+            ],
+            "b3": [
+              2.0,
+              7.5
+            ]
+          },
+          "texture": 0
+        },
+        "top_3": {
+          "vertices": [
+            "tip_top",
+            "u4",
+            "u3"
+          ],
+          "uv": {
+            "tip_top": [
+              0.5,
+              8.5
+            ],
+            "u4": [
+              3.5,
+              8.5
+            ],
+            "u3": [
+              2.0,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "upper_3": {
+          "vertices": [
+            "u3",
+            "u4",
+            "m4",
+            "m3"
+          ],
+          "uv": {
+            "u3": [
+              8.5,
+              4.5
+            ],
+            "u4": [
+              11.5,
+              4.5
+            ],
+            "m4": [
+              11.5,
+              7.5
+            ],
+            "m3": [
+              8.5,
+              7.5
+            ]
+          },
+          "texture": 0
+        },
+        "lower_3": {
+          "vertices": [
+            "m3",
+            "m4",
+            "b4",
+            "b3"
+          ],
+          "uv": {
+            "m3": [
+              0.5,
+              8.5
+            ],
+            "m4": [
+              3.5,
+              8.5
+            ],
+            "b4": [
+              3.5,
+              11.5
+            ],
+            "b3": [
+              0.5,
+              11.5
+            ]
+          },
+          "texture": 0
+        },
+        "bottom_3": {
+          "vertices": [
+            "tip_bottom",
+            "b3",
+            "b4"
+          ],
+          "uv": {
+            "tip_bottom": [
+              0.5,
+              12.5
+            ],
+            "b3": [
+              3.5,
+              12.5
+            ],
+            "b4": [
+              2.0,
+              15.5
+            ]
+          },
+          "texture": 0
+        },
+        "top_4": {
+          "vertices": [
+            "tip_top",
+            "u0",
+            "u4"
+          ],
+          "uv": {
+            "tip_top": [
+              0.5,
+              12.5
+            ],
+            "u0": [
+              3.5,
+              12.5
+            ],
+            "u4": [
+              2.0,
+              15.5
+            ]
+          },
+          "texture": 0
+        },
+        "upper_4": {
+          "vertices": [
+            "u4",
+            "u0",
+            "m0",
+            "m4"
+          ],
+          "uv": {
+            "u4": [
+              4.5,
+              12.5
+            ],
+            "u0": [
+              7.5,
+              12.5
+            ],
+            "m0": [
+              7.5,
+              15.5
+            ],
+            "m4": [
+              4.5,
+              15.5
+            ]
+          },
+          "texture": 0
+        },
+        "lower_4": {
+          "vertices": [
+            "m4",
+            "m0",
+            "b0",
+            "b4"
+          ],
+          "uv": {
+            "m4": [
+              4.5,
+              12.5
+            ],
+            "m0": [
+              7.5,
+              12.5
+            ],
+            "b0": [
+              7.5,
+              15.5
+            ],
+            "b4": [
+              4.5,
+              15.5
+            ]
+          },
+          "texture": 0
+        },
+        "bottom_4": {
+          "vertices": [
+            "tip_bottom",
+            "b4",
+            "b0"
+          ],
+          "uv": {
+            "tip_bottom": [
+              0.5,
+              0.5
+            ],
+            "b4": [
+              3.5,
+              0.5
+            ],
+            "b0": [
+              2.0,
+              3.5
+            ]
+          },
+          "texture": 0
+        }
+      },
+      "seams": []
+    }
+  ],
+  "groups": [
+    {
+      "uuid": "0a206bca-6771-4c7a-a095-cae4886f24b9",
+      "name": "Dilitio",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "0a206bca-6771-4c7a-a095-cae4886f24b9",
+      "isOpen": true,
+      "children": [
+        "8ee29817-c593-48dd-ba9c-492ed3809e3e"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "2f7a50b2-5465-425b-a6d8-43ec707297ec",
+      "id": "0",
+      "name": "Dilitio_Textura.png",
+      "path": "",
+      "relative_path": "Dilitio_Textura.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "double",
+      "internal": true,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVDhPY2C3V/2PjDmyTVEw90RbFCy00xsFDwsDInT/I2OOGnMUzLfMGQVbv8pEwcPBAO48s//ImH22MwpWuh6Ngnv+r0LBw8EANkv5/8iYK04XBQvW2aDgE/9voeAhb8Ct/wDNvwO/xG13UQAAAABJRU5ErkJggg==",
+      "mode": "bitmap",
+      "saved": true,
+      "visible": true,
+      "folder": "",
+      "namespace": ""
+    }
+  ],
+  "animations": []
+}

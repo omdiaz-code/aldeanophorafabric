@@ -1,0 +1,51 @@
+{
+  "phora.power_on": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.power_on",
+    "sounds": [ { "name": "aldeanoforaflut:phora/power_on", "pitch": 0.55 } ]
+  },
+  "phora.boot_ready": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.boot_ready",
+    "sounds": [ { "name": "aldeanoforaflut:phora/boot_ready", "pitch": 0.55 } ]
+  },
+  "phora.power_off": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.power_off",
+    "sounds": [ { "name": "aldeanoforaflut:phora/power_off", "pitch": 0.55 } ]
+  },
+  "phora.ambient": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.ambient",
+    "sounds": [
+      { "name": "aldeanoforaflut:phora/ambient1", "pitch": 0.55 },
+      { "name": "aldeanoforaflut:phora/ambient2", "pitch": 0.55 },
+      { "name": "aldeanoforaflut:phora/ambient3", "pitch": 0.55 },
+      { "name": "aldeanoforaflut:phora/ambient4", "pitch": 0.55 }
+    ]
+  },
+  "phora.processing": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.processing",
+    "sounds": [
+      { "name": "aldeanoforaflut:phora/processing1", "pitch": 0.55 },
+      { "name": "aldeanoforaflut:phora/processing2", "pitch": 0.55 }
+    ]
+  },
+  "phora.accept": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.accept",
+    "sounds": [ { "name": "aldeanoforaflut:phora/accept", "pitch": 0.55 } ]
+  },
+  "phora.deny": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.deny",
+    "sounds": [ { "name": "aldeanoforaflut:phora/deny", "pitch": 0.9 } ]
+  },
+  "phora.trade": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.trade",
+    "sounds": [
+      { "name": "aldeanoforaflut:phora/trade1", "pitch": 0.55 },
+      { "name": "aldeanoforaflut:phora/trade2", "pitch": 0.55 },
+      { "name": "aldeanoforaflut:phora/trade3", "pitch": 0.55 },
+      { "name": "aldeanoforaflut:phora/trade4", "pitch": 0.55 }
+    ]
+  },
+  "phora.restock": {
+    "subtitle": "subtitles.aldeanoforaflut.phora.restock",
+    "sounds": [ { "name": "aldeanoforaflut:phora/restock", "pitch": 0.55 } ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "aldeanoforaflut:block/transformable_merchant_block" },
+    "facing=south": { "model": "aldeanoforaflut:block/transformable_merchant_block", "y": 180 },
+    "facing=west":  { "model": "aldeanoforaflut:block/transformable_merchant_block", "y": 270 },
+    "facing=east":  { "model": "aldeanoforaflut:block/transformable_merchant_block", "y": 90 }
+  }
+}
