@@ -545,19 +545,18 @@ public class TransformableMerchantEntity extends WanderingTrader implements GeoE
     private PlayState predicate(AnimationState<TransformableMerchantEntity> state) {
         int entityState = getEntityState();
 
-        if (entityState == 1) {
-            state.getController().setAnimation(RawAnimation.begin().thenPlay("animation.phora.turn_on"));
+        if (entityState == 0) {
+            state.getController().setAnimation(RawAnimation.begin().thenLoop("animation.phora.sleep"));
+            return PlayState.CONTINUE;
+        } else if (entityState == 1) {
+            state.getController().setAnimation(RawAnimation.begin().thenPlayAndHold("animation.phora.revive"));
             return PlayState.CONTINUE;
         } else if (entityState == 3) {
             state.getController().setAnimation(RawAnimation.begin().thenPlayAndHold("animation.phora.turn_off"));
             return PlayState.CONTINUE;
         } else {
-            // Estado 2: Activo
-            if (state.isMoving()) {
-                state.getController().setAnimation(RawAnimation.begin().thenLoop("animation.phora.float_move"));
-            } else {
-                state.getController().setAnimation(RawAnimation.begin().thenLoop("animation.phora.idle"));
-            }
+            // La misma levitación suave se mantiene al desplazarse; no hay animación de caminata.
+            state.getController().setAnimation(RawAnimation.begin().thenLoop("animation.phora.floating_idle"));
             return PlayState.CONTINUE;
         }
     }
